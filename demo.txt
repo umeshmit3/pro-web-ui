@@ -1,0 +1,18 @@
+function menumousehover(){
+    var dropdown=document.getElementById("ddcontent01");
+    if(dropdown.style.display === "none")
+        {
+            dropdown.style.display="block";
+            dropdown.style.backgroundColor="red"
+            dropdown.style.width="100px"
+        }
+    else{
+        dropdown.style.display="none";
+    }
+}
+function menumouseout(){
+    var dropdown=document.getElementById("ddcontent01");
+    
+        dropdown.style.display="none";
+    
+}
